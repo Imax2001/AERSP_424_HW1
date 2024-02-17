@@ -129,8 +129,32 @@ void Q1()
 
 }
 
+void Q234() {
+	class Plane {
+		double pos, vel, distance;
+		bool at_SCE;
+		string origin, destination;
+	public:
+		Plane(string to, string from) {
+			origin = from;
+			destination = to;
+
+			vel = 0; pos = 0; at_SCE = 0;
+		}
+		~Plane() {
+			cout << "Plane Destroyed." << endl;
+		}
+		void operate(double dt);
+		double get_pos() { return this->pos; }
+		double get_distance() { return this->distance; }
+		bool get_at_SCE() { return this->at_SCE; }
+		void set_vel(double vel) { this->vel = vel; }
+		double get_vel() { return this->vel; }
+	};
+}
+
 int main() {
-	Q1();
+	Q234();
 
 	return 0;
 }
