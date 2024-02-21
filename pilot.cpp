@@ -15,5 +15,13 @@ pilot::~pilot() {
 
 string pilot::get_name() { return this->name; }
 
+void enter_plane(Plane*) {
+
+}
+
+void enter_plane(unique_ptr<Plane>) {
+
+}
+
 
 
