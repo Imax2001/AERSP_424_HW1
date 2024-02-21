@@ -3,8 +3,9 @@
 using namespace std;
 
 
-pilot::pilot() {
-	cout << "Pilot's name: " << this->name << "    Memory address: " << &this->name << endl;
+pilot::pilot(string name) {
+	this->name = name;
+	cout << "Pilot's name: " << this->name << "    Memory address: " << this << endl;
 	cout << this->name << " is ready to board the plane!" << endl;
 }
 

@@ -19,6 +19,8 @@ Plane::Plane(string to, string from){
 	}
 }
 
+Plane::Plane() {}
+
 Plane::~Plane() {
 	cout << "Plane Destroyed." << endl;
 }

@@ -12,6 +12,7 @@ class Plane {
 	string destination;
 	destinations dest_map;
 public:
+	Plane();
 	Plane(string to, string from);
 	~Plane();
 	void operate(double dt);

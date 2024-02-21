@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 #include<string>
 #include"plane.h"
 using namespace std;
@@ -6,8 +7,8 @@ using namespace std;
 class pilot {
 	string name;
 public:
-	pilot();
+	Plane* myPlane;
+	pilot(string);
 	~pilot();
 	string get_name();
-	Plane* myPlane;
 };

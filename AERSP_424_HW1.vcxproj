@@ -133,12 +133,14 @@
     <ClCompile Include="plane.cpp" />
     <ClCompile Include="Q1.cpp" />
     <ClCompile Include="Q5.cpp" />
+    <ClCompile Include="Q7.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pilot.h" />
     <ClInclude Include="plane.h" />
     <ClInclude Include="Q1.h" />
     <ClInclude Include="Q5.h" />
+    <ClInclude Include="Q7.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

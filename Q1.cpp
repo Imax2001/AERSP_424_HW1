@@ -19,6 +19,7 @@ double calc_cg(double e_w, double e_m, double occ_m, double rear_occ_m, double f
 
 void Q1()
 {
+	cout << "================= Question 1 =================" << endl;
 	// define relevant variables
 	// w -> weight; m -> moment arm
 	double e_w, e_m, occ_m, rear_occ_m, fuel, fuel_w, fuel_w_pg, fuel_m, baggage_w, baggage_m;

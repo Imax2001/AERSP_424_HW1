@@ -33,6 +33,9 @@
     <ClCompile Include="Q5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Q7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="plane.h">
@@ -45,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Q5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Q7.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
