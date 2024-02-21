@@ -128,6 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AERSP_424_HW1.cpp" />
+    <ClCompile Include="destinations.h" />
+    <ClCompile Include="pilot.cpp" />
+    <ClCompile Include="plane.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pilot.h" />
+    <ClInclude Include="plane.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

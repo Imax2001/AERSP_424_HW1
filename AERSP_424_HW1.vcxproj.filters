@@ -18,5 +18,22 @@
     <ClCompile Include="AERSP_424_HW1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="destinations.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pilot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pilot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,5 +1,8 @@
 #include <iostream>
 #include <vector>
+#include<array>
+#include "plane.h"
+#include "pilot.h"
 using namespace std;
 
 // Define a couple usefull functions for Q1
@@ -130,27 +133,18 @@ void Q1()
 }
 
 void Q234() {
-	class Plane {
-		double pos, vel, distance;
-		bool at_SCE;
-		string origin, destination;
-	public:
-		Plane(string to, string from) {
-			origin = from;
-			destination = to;
-
-			vel = 0; pos = 0; at_SCE = 0;
-		}
-		~Plane() {
-			cout << "Plane Destroyed." << endl;
-		}
-		void operate(double dt);
-		double get_pos() { return this->pos; }
-		double get_distance() { return this->distance; }
-		bool get_at_SCE() { return this->at_SCE; }
-		void set_vel(double vel) { this->vel = vel; }
-		double get_vel() { return this->vel; }
-	};
+	//Q2 is implimented in destinations.h
+	//Q3 is implimented in plane.h
+	//Q4 is implimented in plane.cpp
+	//Q5:
+	Plane plane1("SCE", "PHL");
+	plane1.set_vel(450); //mph
+	double dt = 0.003; //~=10 seconds in hours
+	for (int i = 0; i < 1000; i++) {
+		plane1.operate(dt);
+		cout << "Time: " << dt * i * 60 * 60 << " seconds    Position: " << plane1.get_pos() << " miles" << endl;
+	}
+	
 }
 
 int main() {
