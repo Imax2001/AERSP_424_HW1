@@ -27,12 +27,24 @@
     <ClCompile Include="pilot.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Q1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Q5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="plane.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="pilot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Q1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Q5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
