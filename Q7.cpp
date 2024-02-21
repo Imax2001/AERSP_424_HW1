@@ -30,6 +30,6 @@ void Q7() {
 			cout << coPilot.get_name() << " is in control of " << coPilot.myPlane << endl;
 		}
 	}
-	delete mainPilot.myPlane;
-	delete coPilot.myPlane;
+	mainPilot.myPlane = 0; delete mainPilot.myPlane;
+	coPilot.myPlane = 0;  delete coPilot.myPlane;
 }
