@@ -129,5 +129,5 @@ void Q1()
 		cout << "The new gross weight is " << gross_weight << " lbs." << endl;
 		cout << "The new center of gravity is " << cg << " inches." << endl;
 	}
-
+	cout << "================= End Question 1 =================" << endl << endl;
 }

@@ -32,4 +32,6 @@ void Q7() {
 	}
 	mainPilot.myPlane = 0; delete mainPilot.myPlane;
 	coPilot.myPlane = 0;  delete coPilot.myPlane;
+
+	cout << "================= End Question 7 =================" << endl << endl;
 }

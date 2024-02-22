@@ -12,4 +12,6 @@ void Q5() {
 		plane1.operate(dt);
 		cout << "Time: " << dt * i * 60 * 60 << " seconds    Position: " << plane1.get_pos() << " miles" << endl;
 	}
+
+	cout << "================= End Question 5 =================" << endl << endl;
 }
